@@ -1,11 +1,20 @@
 <template>
+  <header>
+    <nav>
+      <ul>
+        <li class=""><a class="nav-item" href="#">Home</a></li>
+        <li><a class="nav-item" href="#">About</a></li>
+        <li><a class="nav-item" href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
   <main>
     <HelloWorld/>
   </main>
 </template>
 
 <script>
-import HelloWorld from './components/HelloPage.vue'
+import HelloWorld from './home/HelloPage.vue'
 
 export default {
   name: 'App',
