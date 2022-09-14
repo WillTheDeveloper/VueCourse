@@ -1,6 +1,7 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <main>
+    <HelloWorld/>
+  </main>
 </template>
 
 <script>
@@ -15,6 +16,11 @@ export default {
 </script>
 
 <style>
+body {
+  background: linear-gradient(to bottom, grey, white);
+  height: 1024px;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -22,5 +28,11 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+main {
+  margin: 0 auto;
+  padding: 30px;
+  width: 1024px;
 }
 </style>
